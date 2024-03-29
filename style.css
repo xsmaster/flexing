@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 98px;
+    padding: 24px;
+    transition: all 0.5s;
+
+}
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.header_left {
+    margin-left: 170px;
+
+}
+
+
+.header_center {
+    display: flex;
+    gap: 32px;
+}
+
+
+.header_right>button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+
+.first_section {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 170px;
+    padding-right: 148px;
+    gap: 119px;
+    align-items: center;
+    background-image: url("./assets/image\ 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.text {
+    display: flex;
+    width: 100%;
+    height: 25.06px;
+    justify-content: center;
+}
+
+
+
+.text>p {
+    width: 133px;
+    height: 25.06px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+    color: #000000;
+}
+
+
+.card_1 {
+    width: 864px;
+    height: 200px;
+    gap: 64px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.card_2 {
+    width: 864px;
+    height: 200px;
+    gap: 64px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.card_3 {
+    width: 864px;
+    height: 200px;
+    gap: 64px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+.Text_card {
+    width: 195px;
+    height: 29px;
+    font-family: Open Sans Condensed;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+
+
+.third_section {
+    background-color: #0EB4C1;
+    padding-left: 163px;
+    padding-right: 163px;
+
+}
+
+
+
+.div_1>div {
+    width: 330px;
+    height: 285.19px;
+    top: 1587px;
+    left: 164px;
+    border-radius: 10px;
+
+}
+
+
+.div_1 {
+    transform: translateY(-114px);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+header a:hover {
+    color: red;
+    transition: all 0.5s;
+}
+
+
+
+header a {
+    color: black;
+    transition: all 0.5s;
+}
+
+
+
+header button {
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #000000;
+    border-color: #000000;
+}
+
+
+
+header button:hover {
+    cursor: pointer;
+    transition: all 0.5s;
+    color: red;
+    border-color: red;
+}
+
+
+
+.first_section button {
+    width: 189px;
+    height: 47px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 8px;
+    background-color: #DE2E54CC;
+}
+
+
+
+.second_section {
+    margin-bottom: 200px;
+}
+
+
+
+.third_section>.card {
+    display: flex;
+}
+
+
+.wrapper_text {
+    row-gap: 15.31px;
+}
+
+
+.wrapper_text>button {
+    border: none;
+    color: white;
+}
+
+
+
+form {
+    background-color: white;
+    width: 540px;
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    gap: 13.97px;
+    align-items: center;
+    padding-top: 27.93px;
+    border-radius: 8px;
+}
+
+
+
+form>input {
+    width: 460px;
+    height: 39.11px;
+    outline: none;
+}
+
+
+
+form>button {
+    width: 460px;
+    height: 39.11px;
+    background-color: #38CC8B;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+form>input::placeholder {
+    
+    top: 7px;
+    left: 32px;
+    color: black;
+}
+
+
+.card{
+    gap: 61px;
+}
+
+
+
+footer{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+
+footer a{
+    color: white;
+    transition: all 0.5s;
+}
+
+
+
+footer a:hover{
+    color: red;
+    transition: all 0.5s;
+}
